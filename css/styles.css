@@ -1,0 +1,15 @@
+:root {
+    --dark-background: #1F2937;
+    --header-link: #E5E7EB;
+    --header-logo: #F9FAF8;
+    --button-color: #3882F6;
+    --information-header: #1F2937;
+    --quote-background: #E5E7EB;
+    --quote-text: #1F2937;
+}
+
+* {
+    font-size: 12px;
+    margin: 0;
+    padding: 0;   
+}
