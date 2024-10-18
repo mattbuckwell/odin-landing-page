@@ -11,5 +11,41 @@
 * {
     font-size: 12px;
     margin: 0;
-    padding: 0;   
+    padding: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+nav {
+    background-color: var(--dark-background);
+}
+
+nav div {
+    padding: 12px;
+    margin: 0 10% 0 10%;
+}
+
+ul {
+    display: flex;
+    gap: 30px;
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+}
+
+ul a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    color: var(--header-link);
+}
+
+li.logo {
+    margin-right: auto;
+    font-size: 1em;
+}
+
+.logo a {
+    font-size: 2rem;
+    color: var(--header-logo);
+    font-weight: 900;
 }
