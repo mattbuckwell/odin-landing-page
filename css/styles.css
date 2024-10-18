@@ -95,3 +95,47 @@ li.logo {
     background-color: var(--quote-background);
     width: 50%;
 }
+
+/* ----- INFORMATION section ----- */
+.information {
+    padding: 20px 0;
+}
+
+.information-container {
+    margin-bottom: 30px;
+    padding: 12px;
+}
+
+.information-container h2 {
+    font-size: 3rem;
+    color: var(--dark-background);
+    text-align: center;
+    margin-top: 2rem;
+}
+
+.information-cards {
+    display: flex;
+    justify-content: center;
+    gap: 70px;
+    margin-top: 4rem;
+}
+
+.card {
+    width: 150px;
+    height: 250px;
+}
+
+.card-img {
+    border: 2px solid var(--button-color);
+    border-radius: 8px;
+    width: 150px;
+    height: 150px;
+}
+
+.card-text {
+    font-size: 1.3rem;
+    text-align: center;
+    color: var(--header-link);
+    padding-top: 8px;
+}
+
