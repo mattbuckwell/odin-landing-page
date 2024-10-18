@@ -139,3 +139,29 @@ li.logo {
     padding-top: 8px;
 }
 
+/* ----- QUOTE section ----- */
+.quote {
+    background-color: var(--quote-background);
+    display: flex;
+    justify-content: center;
+    padding: 8rem 0;
+}
+
+.quote-container {
+    width: 810px;
+    display: flex;
+    flex-direction: column;
+}
+
+.quote-text {
+    font-size: 3rem;
+    font-weight: 300;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.quote-author {
+    align-self: flex-end;
+    font-weight: 900;
+    font-size: 1.5rem;
+}
