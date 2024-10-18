@@ -196,3 +196,15 @@ li.logo {
     border: 2px solid #fff;
     margin-top: 0;
 }
+
+/* ----- FOOTER section ----- */
+footer {
+    background-color: var(--dark-background);
+    padding: 2rem 0;
+}
+
+footer p {
+    color: #fff;
+    text-align: center;
+    font-size: 1.2rem;
+}
