@@ -80,7 +80,7 @@ li.logo {
     margin-top: 15px;
 }
 
-.hero-left .btn {
+.btn {
     background-color: var(--button-color);
     padding: 6px 35px;
     border-radius: 5px;
@@ -164,4 +164,35 @@ li.logo {
     align-self: flex-end;
     font-weight: 900;
     font-size: 1.5rem;
+}
+
+/* ----- SIGN UP section ----- */
+.sign-up {
+    padding: 6rem 2rem;
+}
+.sign-up-container {
+    padding: 4rem 9rem;
+    margin: 0 10% 0 10%;
+    background-color: var(--button-color);
+    border-radius: 6px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.sign-up-left {
+    color: #fff;
+}
+
+.sign-up-left h3 {
+    font-size: 2rem;
+}
+
+.sign-up-left p {
+    font-size: 1.5rem;
+}
+
+.sign-up-right .alt-btn {
+    border: 2px solid #fff;
+    margin-top: 0;
 }
